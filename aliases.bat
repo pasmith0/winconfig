@@ -14,4 +14,5 @@ doskey date=date/t
 
 rem Default editor - should be in path
 doskey edit=uedit64 $*
+doskey uedit=uedit64 $*
 
