@@ -13,6 +13,10 @@ doskey time=time/t
 doskey date=date/t
 
 rem Default editor - should be in path
-doskey edit=uedit64 $*
-doskey uedit=uedit64 $*
+rem doskey edit=uedit64 $*
+rem doskey uedit=uedit64 $*
+
+doskey pwd=cd
+
+doskey home=cd %USERPROFILE%
 
