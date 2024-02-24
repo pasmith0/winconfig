@@ -3,7 +3,7 @@ rem Call a couple of batch files to set up our environment variables
 rem
 rem To install this to run automatically run this command:
 rem > reg add "HKCU\Software\Microsoft\Command Processor" /v AutoRun ^
-rem    /t REG_EXPAND_SZ /d "%"USERPROFILE"%\init.cmd" /f
+rem    /t REG_EXPAND_SZ /d "%"USERPROFILE"%\winconfig\init.bat" /f
 rem
 
 rem This one is for Ruby native gem
